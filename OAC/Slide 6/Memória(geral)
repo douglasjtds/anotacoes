@@ -1,0 +1,35 @@
+- A memória do computador é organizada em hierarquia.
+	- Nível mais alto(mais perto do processador) - Registradores do processador
+	- Em seguida vêm um ou mais níveis de cache. Múltiplos níveis L1, L2 etc...
+	- Em seguida vem a memória principal (memória dinâmica de acesso aleatório - DRAM)
+	- Próximo nível, memória externa - Disco Rígido ou um nível mais abaixo disso - mídia removível, discos ópticos ou fitas.
+
+- À medida em que descemos na hierarquia encontramos:
+	.Custo/bit menor
+	.Capacidade maior
+	.Tempo de acesso mais lento
+
+- Seria muito bom se pudéssemos usar apenas memória mais rápida, entretanto, ela é a memória mais cara. Com isso trocamos tempo de acesso pelo custo usando a memória mais lenta.
+	(ver pirâmide, página 5 do slide 6)
+
+- O desafio é organizar os dados e os programas na memória de modo que as palavras de memória acessadas normalmente estejam na memória mais rápida.
+- É provável que a maioria dos acessos futuros à memória principal, feitos pelo processador, sejam para locais acessados recentemente.
+- Assim o cache retém automaticamente uma cópia das palavras usadas recentemente, vindas da DRAM.
+- Na maior parte do tempo, o processadr solicitará palavras da memória que já estão no cache.
+
+- A memória de computador exibe a gama mais variada de:
+	.Tipo
+	.Tecnologia
+	.Organização
+	.Desempenho
+	.Custo
+- Mais variada que qualquer outro recurso de um sistema de computação
+
+- Um sistema de computação possui subsistemas de memória.
+	- Subsistemas Internos (Acessíveis diretamente pelo processador)
+	- Subsistemas Externos (Acessíveis por meio de módulo E/S)
+
+
+
+
+

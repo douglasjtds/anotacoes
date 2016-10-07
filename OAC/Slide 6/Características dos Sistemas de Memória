@@ -1,0 +1,40 @@
+Localização:
+	Interna ou externa.
+Capacidade:
+	Expresso em bytes ou palavras
+	Tamanhos comuns de palavras: 8, 16 e 32 bits
+Unidade de Transferência:
+	Pode ser o tamanho da palavra
+	Normalmente é maior: 64, 128 ou 256 bytes
+
+Método de Acesso:
+	
+	- Acesso sequêncial: acesso em uma sequência linear
+		Dados organizados em registros sequenciais
+		Exemplo: fitas magnéticas.
+		Tempo de acesso variável
+	
+	- Acesso direto: cada bloco de dados possui um endereço único
+		Baseado na localização física
+		Acesso feito através de um acesso direto a uma vizinhança genérica do registro, e em seguida busca sequencial
+		Tempo de acesso variável.  Ex.: HD
+
+	- Acesso aleatório: cada posição de memória possui um endereço único
+		Tempo de acesso a uma posição é constante.
+		Ex.: memória principal (RAM) e alguns sistemas de memória cache.
+
+	- Associativo: acesso aleatório que compara certo número de bits de uma palavra com todas as palavras em memória.
+		Determina quais posições possuem o mesmo padrão de bits
+		Uma palavra é buscada com base em parte de seu conteúdo, não de acordo com o seu endereço.
+		Ex.: memórias cache.
+
+
+Desempenho:
+	- Tempo de Acesso (latência):
+		- Em memórias de acesso aleatório:
+			Tempo decorrido desde o instante em que um endereço é apresentado à memória até o momento em que os dados são armazenados ou se tornam disponíveis para utilização.
+		- Em memórias de acesso não-aleatório.
+			Tempo gasto para posicionar o mecanismo de leitura-escrita na posição desejada.
+
+	- Tempo de ciclo de memória:
+		- Aplicável principalmente às... (parei na página 16)
