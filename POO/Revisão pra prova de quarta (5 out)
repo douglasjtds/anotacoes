@@ -1,0 +1,125 @@
+Questão 1
+
+	qualidade de software...
+	correção, robustez...
+
+Questão 2 
+
+	Explicar os conceitos da orientação a objetos: Classe(implementação de uma entidade de negócios), 
+	objeto(instancia de uma classe), 
+	método(comportamento, funcionalidade, função de uma classe, que vai mostrar o comportamento do objeto), atributos(dados de uma classe que determina as propriedades), 
+	mensagem(quando um objeto chama o método de outro objeto)
+
+
+Questão 3
+	
+	Explique como se dá o processo de compilação e execução em java, o papel da JVM = 
+
+	(a linguagem java é uma linguagem híbrida, na compilação o java pega o código fonte e transforma numa linguagem intermediaria("semi-executável") = bytecode, no momento da execução o java interpreta o código para transformá-lo para a linguagem daquela máquina)
+
+Questão 4
+
+	explicar os efeitos dos seguintes modificadores para...
+
+	private = só a propria classe enxerga o atributo e seus métodos
+	protect = só as classes do pacote (????)
+	static = método compartilhado (em nível de classe)
+
+	explique o modificador final 
+		trasnforma a variavel em constante
+
+
+Questão 5 
+	qual o papel do método construtor	
+
+Questão 6
+	identifique as classes, métodos e atributos
+
+Questão 7
+	o que é e pra que serve o garbage collector do java
+
+Questão 8
+	Explique como se dá o mecanismo de passagem de parâmetro do java.
+		semântica de referência, (sempre por valor), no caso de objetos complexos, copia... 
+
+			em C:
+				void teste (int p){
+					p++;
+				}
+				teste(x);
+
+				void teste (int *p){
+					(*p)++;
+				}
+
+			em Java:
+				public teste (int p){
+					p++;
+				}
+
+				teste(x);
+
+				public teste (Aluno p){   //passando um objeto, ou vetor...
+					p.setMatricula(2);
+
+				}   
+				Aluno x = new Aluno();
+				teste(x);
+
+
+Questão 9
+
+
+Questão 10
+	
+Questão 11 (vai cair na prova, provavelmente) 
+	a)
+	b) 	private int numero;
+		private Date data;
+		private String CNPJ;
+		private double valorNota;
+		private double faturamento;
+		private ArrayList<Item> itens = new ArrayList<>();
+		//construtor
+
+		//get and setter
+
+		public void addItem(int n, int q, double p){
+			itens.add(new Item(n, q, p));
+		}
+
+Questão 16
+	public void metodo(Venda[] vet, Venda obj){
+		for(int i = 0; i < vet.lenght; i++){
+			if (vet[i] == null){
+				vet[i] = obj;
+			}
+		}
+	}
+
+
+	public boolean metodo(Venda[] vet, Venda obj){  //melhorando a função
+		for(int i = 0; i < vet.lenght; i++){
+			if (vet[i] == null){
+				vet[i] = obj;
+				return true;
+			}
+		}
+		return false;
+	}
+
+
+Questão 18
+	
+
+
+Questão 19 
+	a) ArrayList as strings repetidas são inseridas(repetidas), no HashSet não é inserida 
+	e no HashMap ela é sobrescrita...
+	
+	b) 	ArrayList = O(n)
+		HashSet = O(n)
+		HashMap = O(1)
+
+	
+

@@ -1,0 +1,30 @@
+- Parâmetros de desempenho de disco
+
+Um sistema operacional faz toda a diferença no desempenho do disco, porque ele que é responsável por organizar a memória da melhor forma possível. O disco está sempre girando em velocidade muito alta e constante
+
+Seek Time: Tempo gasto para posicionar a cabeça da trilha que está até a trilha que precisa.
+
+Atraso rotacional/latência rotacional: Tempo gasto após achar a trilha para o disco chegar no setor necessário. Quanto maior a latência, mais lento o acessoa à memória.
+
+Tempo de acesso: é a soma do seek time e do atraso rotacional. (chegar na informação necessária).
+
+
+Fatores de espera de resposta do dispositivo: 
+	espera pelo dispositivo
+	espera pelo canal
+	busca
+	atraso rotacional
+	transferência de dados
+
+
+
+
+- RAID (criado por pesquisadores de Berkeley em 1988)
+
+É basicamente trabalhar com múltiplos HDs (possui paralelismo)
+
+É um conjunto de discos físicos, porém o SO entende como um só. Os dados são dividídos/distribuidos entre os discos de modo a permitir o acesso simultâneo. 
+
+O RAID necessita da redundância(duplicação de dados) para recuperação de falhas...
+
+Temos 7 principais níveis de RAID. 

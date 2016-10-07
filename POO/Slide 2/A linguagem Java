@@ -1,0 +1,14 @@
+Origem: 
+	criada por
+		Sun Microsystems
+		em 1991
+		James Gosling
+		baseada em C e C++
+
+- É hoje utilizada na produção de software de larga escala.
+
+- Sua compilação não gera um executável e sim um bytecode, que é executado pela JVM.
+
+- Programa fonte tem extenção .java
+
+- Programa compilado tem extenção .class 

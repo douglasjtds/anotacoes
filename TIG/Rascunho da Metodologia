@@ -1,0 +1,47 @@
+Baseando-se no problema de pesquisa proposto, pensou-se na criação de um sistema de buscas que não fosse baseado no método de comparação de string ou busca por categorias.
+A ideia proposta então foi que o PriceWatch fosse um serviço que buscasse as informações nos principais sites de compras online e as padronizasse num banco de dados com características únicas, para que então retornasse essas informações de maneira mais precisa ao usuário, evitando erros e diminuindo tempo de busca.
+Pensando na ideia central do PriceWatch, iniciou-se a busca das ferramentas ideais em sua criação. 
+Para a busca de informações nos e-commerces utilizamos a linguagem Python, (citar informações sobre python). Utilizou-se como banco de dados o MongoDB (citar vantagens do MongoDB). Para o versionamento do projeto e compartilhamento de código entre os integrantes do grupo, utilizou-se o GitHub pela sua facilidade de (falar das vantagens do GitHub)  
+O sistema operacional utilizado para o desenvolvimento do projeto foi o Ubuntu, devido à melhor usabilidade e compatibilidade com o GitHub e maior facilidade de instalação e uso do Python.
+
+
+
+
+
+
+ferramentas utilizadas: 
+	Python (scrapy)
+	MongoDB
+	Linux
+	GitHub
+
+
+
+
+Com o objetivo de buscar melhorias nas 
+
+Vantagens do mongoDB: performace e escalabilidade
+
+
+
+Links:
+
+	Python: 
+		Python vs Ruby:	https://www.infoq.com/br/news/2010/05/python-vs-ruby
+
+		(livro)Porque as pessoas usam Python: https://www.safaribooksonline.com/library/view/learning-python-5th/9781449355722/ch01s01.html
+
+		http://tableless.com.br/por-que-python/
+
+		https://www.profissionaisti.com.br/2009/01/10-motivos-para-voce-aprender-a-programar-em-python/
+	
+	MongoDB: 
+		http://imasters.com.br/artigo/18334/mongodb/3-razoes-para-usar-mongodb?trace=1519021197&
+
+
+	GitHub: 
+		https://udgwebdev.com/5-motivos-para-usar-github
+
+
+
+

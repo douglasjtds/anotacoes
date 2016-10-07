@@ -1,0 +1,35 @@
+- Computador é um sistema complexo.
+- Computadores contemporâneos contêm milhões de componentes.
+- Cada componente é um subsistema com inter-relacionamentos.
+- Em cada nível o computador possui estrutura e função.
+	Estrutura: modo como os componentes estão inter-relacionados.
+	Função: operação de cada componente como parte da estrutura.
+
+
+FUNÇÃO:
+
+	As quatro funções básicas que o computador pode realizar são:
+		
+		Processamento de dados: 
+			Naturalmente capaz de processar dados
+			Assumir várias formas
+		
+		Armazenamento de dados:
+			Essencial armazenar os dados mesmo que temporariamente.
+			Ele pode ser de curto ou longo prazo.
+
+		Movimentação de dados:
+			Dados entre o computador e o mundo exterior.
+			Dados entregues a um periférico (entrada/saída - I/O)
+			Dispositivo referenciado como um periférico
+			Distâncias maiores -> comunicação de dados.
+
+		Controle:
+			Atua sobre as outras 3 funções
+			Unidade gerencia os recursos e coordena o desempenho
+
+
+ESTRUTURA:
+
+	- Computador interage com o seu ambiente externo
+	- Essas ligações podem ser classificadas como dispositivos periféricos ou linhas de comunicação

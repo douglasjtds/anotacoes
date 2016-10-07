@@ -1,0 +1,35 @@
+-> A ideia básica de OO é: o software deve ser constituído por objetos que representem os objetos que constituem
+o mundo real.
+
+-> O domínio do problema a ser resolvido caracteriza-se por classes de objetos que possuem 
+atributos e comportamentos e que se relacionam entre si.
+
+-> O modelo utilizado no software orientado por objetos está mais próximo do mundo real do que aquele utilizado no paradigma estruturado = redução do Gap Semântico.
+
+-> Para construir um software estruturado, a pergunta principal a se fazer é: "O que o sistema faz?"
+
+-> Para construir um software orientado por objetos a pergunta principal a se fazer é: 
+"Quais são as classes de objetos do sistema?"
+
+-> Questões chave na construção de software orientado por objetos:
+	1. Indentificar objetos:
+		- O software deve refletir os objetos do mundo real, ou seja, os objetos estão no mundo real,
+		basta identificá-los.
+	2. Descrever os objetos
+		- A descrição dos objetos deve representar as características e comportamentos. O elemento que 
+		descreve os objetos são as classes. 
+	3. Descrever as relações entre as classes de objetos: 
+		- O tipo de relacionamento existente entre dois objetos(por exemplo: é um, possui, compõe, etc)
+		deve ser representado diretamente no software.
+
+
+-> Os objetos encontrados são categorizados em classes.
+
+-> As classes constituem o núcleo de um programa orientado por objetos.
+
+-> CONCLUSÃO: 
+	- Um software OO é constituído por classes que descrevem o comportamento e as características de objetos,
+	que interagem entre si.
+
+	- O programa principal tem basicamente a função de criar os objetos principais e iniciar a computação.
+

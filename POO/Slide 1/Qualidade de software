@@ -1,0 +1,53 @@
+							"Um hardware nunca pode correr atrás de um software"
+							Livro: Java: como programar 10ª edição
+
+
+Qualidade de software:
+
+	Fatores externos de qualidade de software(ponto de vista do usuário):
+		-> Correção: quando o software faz exatamente aquilo para o qual foi destinado.
+		
+		-> Robustez: quando o software "aguenta pedrada" (ex.: aguentar problemas como 
+		digitação de uma letra na idade).
+		
+		-> Extensibilidade: quando é fácil acrescentar coisas ao software sem problemas
+
+		-> Reusabilidade: quando um software ou parte dele pode ser facilmente utilizado por outro software.
+
+		-> Compatibilidade: facilidade de combinar um software com outros softwares.
+
+		-> Eficiência: refere-se ao bom uso que o software faz dos recursos de hardware,
+		tais como memória e processadores.
+
+		-> Portabilidade: é a facilidade de se utilizar o software em diferentes ambientes de hardware e software.
+
+		-> Verificabilidade: facilidade de se preparar rotinas para se verificar a conformidade 
+		do software com os seus requisitos.  (??????)
+
+		-> Integridade: característica relacionada à segurança de dados, programas e documentos. Habilidade de protejer tais componentes contra acessos não autorizados.
+
+		-> Facilidade de uso ou USABILIDADE: é a facilidade que o software pode ser aprendido e utilizado.
+
+
+	Fatores internos de qualidade de software (ponto de vista estrutural do software - Permitem 
+	atingir os fatores externos):
+
+		-> Modularidade: características de um software que é constituído por unidades denominadas módulos. (???)
+
+		-> Legibilidade: facilidade/capacidade de leitura/entendimento do código-fonte
+
+		-> Manutenibilidade: facilidade de realizar manutenção em um software.
+
+
+
+
+ps.: 
+
+	A forma como um software é construido permite atingir os fatores internos de qualidade. 
+
+	Os fatores internos de qualidade permitem atingir os fatores externos de qualidade. 
+
+	A Orientação a Objetos é um paradigma cujas características permitem a obtenção de software modular,
+	legível e de fácil manutenção. 
+
+

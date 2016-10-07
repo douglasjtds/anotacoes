@@ -1,0 +1,31 @@
+							1ª Lista de Exercícios – Estudo Dirigido para a AS1
+
+1)	Correção é quando o software faz exatamente aquilo pelo qual foi destinado durante seu processo de idealização. E Robustez é quando um software não trava ou dá erro por um simples uso errado, como por exemplo, digitar uma letra no lugar da idade; portanto, é quando o software “aguenta pedrada”.
+
+
+2)  Classe: conjunto de objetos com características comuns, é a implementação de uma entidade de negócios.
+	Objeto: é um elemento/instância de uma classe. 
+	Método: representam os estados e ações dos objetos e classes, é a função/comportamento de uma classe.
+	Mensagem: quando um objeto chama o método de outro objeto.
+
+
+3)	A linguagem Java é uma linguagem híbrida. Na compilação, o Java pega o código-fonte e o transforma numa 
+linguagem intermediária, um semi-executável, ou bytecode. No momento da execução, esse bytecode é 
+interpretado pela JVM(Java Virtual Machine) e por ela executado.
+
+
+4)	- public: pode ser acessado de qualquer lugar e por qualquer entidade que possa visualizar a classe
+a que ela pertence. 
+	
+	- private: os membros assim definidos, não podem ser acessados por nenhuma outra classe, nem mesmo as herdadas.
+	
+	- protected: esse modificador, torna seus membros acessíveis apenas pelas classes num mesmo pacote ou através
+	de herança.
+
+	- static: é usado para a criação de uma variável que poderá ser acessada por todas as instâncias de objetos
+	desta classe, como uma variável comum. Método compartilhado (em nível de classe).
+
+	- final: o modificador final, quando usado no atributo de uma classe, ele pode ter seu valor atribuído uma única vez, seja na própria declaração ou no contrutor.
+
+
+5) 

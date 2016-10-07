@@ -1,0 +1,27 @@
+-> Gap Semântico: 
+	- é a distância entre as entidades do mundo real e o modelo computacional que o representa.
+	- a diminuição do gap semântico permite o melhor entendimento do software. 
+
+-> o paradigma estruturado:
+	
+	Um paradigma estruturado é baseado em "o que o sistema faz".
+
+	É a contrução top-down de software:
+		- Indentificar em alto nível a função que o software deve desempenhar.
+
+		- Refinar sucessivamente esta função do software. A cada passo detalham-se as funções do passo anterior em funções mais específicas.
+
+
+	Desvantagens do método estruturado: 
+
+		O método introduz dificuldade na evolução do sistema, pois não favorece reuso.
+
+		Um software do paradigma estruturado tem uma grande distância semântica do modelo do mundo real, o que dificulta o seu entendimento. 
+
+
+	Problema: 
+		Necessidade de métodos e técnicas que promovam fatores como modularibilidade,
+		extensibilidade e reusabilidade.
+
+	Solução: 
+		Orientação por Objetos. 

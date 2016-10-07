@@ -1,0 +1,29 @@
+- Arquitetura (conceito lógico de alguma coisa)
+	Atributos que têm impacto direto sobre a execução lógica do programa.
+	Atributos visíveis a um programador.
+	Conjunto de instruções.
+	Lida com o funcionamento do sistema computacional.
+	Número de bits usado para representar tipos de dados (números, caracteres)
+	Técnicas de endereçamento de memória.
+
+- Organização (componentes físicos)
+	Refere-se às unidades operacionais.
+	Suas interconexões que realizam as especificações arquiteturais.
+	Detalhes do hardware.
+	Sinais de controle.
+	Tecnologia de memória utilizada.
+	Interface entre o computador e periféricos.
+
+
+.Fabricantes oferecem modelos com a mesma arquitetura e diferenças na organização.
+.Uma arquitetura pode se espalhar por muitos anos e abranger diversos modelos.
+.Sua organização pode ir variando conforme a tecnologia.
+.Um cliente pode comprar um modelo mais barato e com o passar do ano evoluir para um mais caro e mais rápido,
+sem ter que abandonar o software desenvolvido.
+.Modelos mais novos com a mesma arquitetura.
+.Investimento no software fica protegido.
+
+.Nos microcomputadores, o relacionamento entre arquitetura e organização é próximo.
+.Mudanças na tecnologia não influenciam apenas a organização, mas resultam na introdução de arquiteturas mais poderosas e mais flexíveis.
+.Uma família de modelos podem contar com a mesma arquitetura e diferentes organizações. 
+

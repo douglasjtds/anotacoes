@@ -1,0 +1,17 @@
+Java possui os seguintes tipos básicos de dados:
+	- boolean
+	- byte
+	- short
+	- int
+	- long
+	- float
+	- double
+	- char
+
+Tipo String: 
+	Em Java, String é uma classe pré-definida.
+	Cada string (cadeia de caracteres) utilizada no programa é um objeto do tipo String.
+	Métodos principais da classe String: 
+		public char charAt(int i) //devolve o caractere da posição i
+		public boolean contains(CharSequence s) //devolve true se a string contém a sequência s de caracteres.
+		public boolean equals  [...]
