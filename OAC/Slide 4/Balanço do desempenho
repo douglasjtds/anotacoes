@@ -1,0 +1,14 @@
+- Diferença mais crítica: interface do processador com a memória principal
+- Caminho entre memória e processador é o caminho mais crítico do computador inteiro.
+- Se o caminho não mantiver o ritmo, o processador entra em estado de espera
+- Algumas soluções:
+	- Aumentar o número de bits recuperados ao mesmo tempo, aumentando a largura do barramento.
+	- Alterar a interface da RAM incluindo uma cache.
+	- Reduzir a frequência de acesso à RAM. Estruturas de cache mais complexas. Cache no processador e próxima ao processador.
+
+- Outra área foco no projeto de desempenho: E/S (I/O)
+- Aplicações mais sofisticadas e com demandas intensas de E/S
+- Criam demandas consideráveis de vazão de dados
+- É preciso movimentar esses dados entre o processador e o periférico
+- Caching e barramento rápidos
+- A chave de tudo é o equilíbrio

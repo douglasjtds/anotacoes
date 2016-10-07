@@ -1,0 +1,29 @@
+DESAFIOS
+
+- Potência
+	- Velocidade do chip aumenta, também aumenta a densidade da potência (Watts/cm^2)
+	- Dificuldade de dissipar o calor gerado
+- Atraso de RC (Resistência e Capacitância)
+	- Velocidade dos elétrons entre transistores é limitada pela RC dos fios de metal
+	- Atraso aumenta a medida que o produto RC aumenta
+	- Diminuindo o chip -> interconexões com fios mais finos
+	- Aumento de resistência
+	- Fios muito próximos -> aumento da capacitância
+
+
+
+SOLUÇÕES
+
+- Aumento do cache
+- Dois ou três níveis de cache entre o processador e a memória principal
+- A medida que a densidade do chip tem aumentado, mais memória cache tem sido incorporada
+- Permitindo acesso mais rápido a ela
+- Primeiro Pentium dedicava 10% do espaço para cache. Pentium 4 dedica metade de sua área
+- Lógica de execução de instruções cada vez mais complexas
+
+- Pipeline
+	- Funciona como uma linha de montagem em uma fábrica
+	- Diferentes estágios de execução de diferentes instruções ocorrem ao mesmo tempo
+- Superescalar
+	- Permite múltiplos pipelines dentro do mesmo processador
+	- Instruções que não dependem uma das outras podem ser executadas ao mesmo tempo

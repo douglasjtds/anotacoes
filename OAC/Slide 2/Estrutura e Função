@@ -41,3 +41,7 @@ ESTRUTURA:
 
 	- Componente mais interessante e complexo: CPU.
 	- Seus principais componentes internos são: 
+		.Unidade de controle: controla a operção da CPU.
+		.ULA: realiza a função de processamento.
+		.Registradores: oferece armazenamento à CPU.
+		.Interconexão da CPU: Comunicação entre controle, ULA e registradores.

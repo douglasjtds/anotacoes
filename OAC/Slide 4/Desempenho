@@ -1,0 +1,63 @@
+anotacoesCADERNO
+
+Principais parâmetros a considerar são: 
+	custo
+	tamanho
+	segurança
+	confiabilidade	
+	consumo
+
+
+- Comparar desempenho de processadores não é tarefa trivial.
+
+40MHz = 40 * 10^6 f (frequência)
+
+Algumas siglas pras fórmulas: 
+		Ic = Número total de instruções para um programa
+		CPI = Ciclos por Instrução (média)
+		CPIi = número de ciclos exigidos por instrução i
+		Ii = número de instruções do tipo i
+
+CISC (Complex Instruction Set Computer - Conjunto Completo de Instruções)
+RISC (Reduced Instruction Set Computer – Computador com um Conjunto Reduzido de Instruções)
+
+________________________________________________________________________________________________________________________________________________________________________
+
+DESEMPENHO (Slide)
+
+- Revolução tecnológica -> Aplicações de incrível complexidade e poder
+	processamento de imagens
+	reconhecimento de voz
+	videoconferências
+	criação de multimídia
+	simulações
+	servidores para processamento de transações
+	banco de dados
+	alguns conseitos são os mesmos de computadores antigos (50 anos atrás)
+	técnicas para "espremer a última gota" de desempenho
+
+- Deve-se evitar qualquer coisa que atrapalhe o fluxo suave, mina a potência do processador
+- Fabricantes de chips aprendendo a fabricar chips com mais densidade
+- Necessárias técnicas ainda mais elaboradas para "alimentar o mostro"
+
+- Algumas técnicas embutidas nos processadores:
+	
+	-- Previsão de desvio:
+		.Processador tenta antecipar o código de instrução apanhado na memória.
+		.Prevê os desvios.
+		.Se acertar, poderá buscar instruções antecipadamente.
+		.Prevê muitos desvios.
+		.Essa previsão mantém o processador ocupado.
+
+	-- Análise de fluxo de dados:
+		.Processador analisa quais instruções dependem dos resultados de outras.
+		.Cria uma sequência otimizada de instruções.
+		.Instruções são realizadas quando estão realmente prontas.
+		.Impede atrasos desnecessários.
+
+	-- Execução especulativa:
+		.Usando as duas técnicas anteriores.
+		.Alguns processadores executam instruções antes do seu surgimento real.
+		.Especulativamente.
+		.Depois mantém os resultados em local temporário.
+		.Objetivo: manter o processador ocupado.

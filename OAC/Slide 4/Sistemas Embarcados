@@ -1,0 +1,20 @@
+- A arquitetura ARM é usada em sistemas embarcados
+- Sistema Embarcado
+	- Combinação de hardware e software
+	- Talvez partes adicionais mecânicas
+	- Para realizar uma função dedicada
+- Muitas vezes o sistema embarcado faz parte de um sistema ou produto maior
+- Ex.: Sistema ABS de um carro
+
+- Sistemas embarcados possuem requisitos e restrições bastante variáveis, tais como:
+	. Diferentes condições ambientais (radiação, vibrações e umidade)
+	. Diferentes características de aplicação
+	. Sistemas pequenos ou grandes – restrições de custo muito diferentes
+	. Tempo de vida de curto a longo
+	. Velocidades diferentes (lenta a rápida)
+	. Diferentes modelos de computação
+
+- Características:
+	. Diferentes interfaces para interagir com sistemas externos
+	. Interface humana, pode ser simples (uma luz), ou complicada (visão robótica em tempo real)
+	. O software normalmente tem uma função fixa e é específico à aplicação
