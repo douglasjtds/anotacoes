@@ -31,5 +31,13 @@ FUNÇÃO:
 
 ESTRUTURA:
 
-	- Computador interage com o seu ambiente externo
-	- Essas ligações podem ser classificadas como dispositivos periféricos ou linhas de comunicação
+	- Computador interage com o seu ambiente externo.
+	- Essas ligações podem ser classificadas como dispositivos periféricos ou linhas de comunicação.
+	- Quatro componentes estruturais principais:
+		.Unidade central de processamento: controlar a operação do computador. Realizar o processamento de dados (processador).
+		.Memória principal: armazenar dados.
+		.E/S ou I/O: Mover dados entre o computador e o ambiente externo.
+		.Interconexão: oferecer comunicação entre CPU, memória e E/S (barramento).
+
+	- Componente mais interessante e complexo: CPU.
+	- Seus principais componentes internos são: 
