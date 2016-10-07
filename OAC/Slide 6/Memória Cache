@@ -1,0 +1,51 @@
+Introdução:
+
+	- Apesar dos avanços da memória, ainda era lento transportar os dados da memória principal para o processador.
+	- Uma memória grande e lenta é combinada com uma memória pequena e rápida.
+	- A cache foi projetada para acumular momentaneamente os dados a serem enviados ao processador.
+	- A ideia é DUPLICAR parte dos dados da memória principal em um módulo menor e mais rápido. 
+
+
+_______________________
+NÍVEIS DE MEMÓRIA CACHE:
+	CPU > (L1 > L2 > L3) > RAM
+	- Nível 1 (L1): no próprio chip do processador.
+	- Nível 2 (L2): chip separado, acoplado ao processador.
+	- Nível 3 (L3): chip na placa-mãe
+
+- Quando o processador tenta ler uma palavra da memória, é feita uma verificação para determinar se a palavra está em cache.
+- Se estiver, ela é entregue ao processador.
+- Senão, uma palavra é lida da memória principal, gravada em cache e entregue ao processador.
+
+- A L2 é mais lenta e normalmente maior que a cache L1
+- A L3 é mais lenta e normalmente maior que a L2
+
+- A memória principal consiste em até 2^n palavras endereçáveis
+- Cada palavra tem um endereço distinto de n bits
+- Cada palavra contém um endereço distinto
+- Essa memória é considerada como sendo uma série de blocos de tamanho fixo com k palavras cada
+- Existem M = (2^n)/K blocos na memória principal.
+
+- A cache consiste em m blocos, chamados linhas
+- Cada linha contém k palavras
+- Cada linha também inclui bits de controle (bit para indicar se a linha foi modificada desde que foi carregada pela última vez)
+
+- Operações da cache:
+	- CPU requisita conteúdo do local de memória
+	- Verificar se os dados (bloco) estão em cache
+	- Se estiverem, copia da cache (rápido)
+	- Senão, lê bloco solicitado da memória principal para a cache
+	- Em seguida, entrega da cache à CPU
+	- Cache inclui tags para identificar qual bloco da memória principal está em cada slot da cache
+
+- Quando ocorre um acerto de cache (cache hit) os endereços são desativados e a comunicação é apenas entre o processador e a memória cache
+- Sem tráfego no barramento do sistema
+- Quando os dados não estão na cache (miss), o endereço desejado é carregado no barramento do sistema e os dados são transferidos através do buffer de dados para o processador
+
+________________________
+TAMANHO DA MEMÓRIA CACHE:
+
+- Deve ser pequena para que o custo total por bit seja próximo do custo por bit da memória principal
+- Outros motivos para minimização do cache:
+	- Quanto maior a cache, maior o número de pinos e mais lento o endereçamento
+	- O espaço limitado da placa de circuitos

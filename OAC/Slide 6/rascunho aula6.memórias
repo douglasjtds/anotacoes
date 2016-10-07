@@ -28,3 +28,24 @@ Fatores de espera de resposta do dispositivo:
 O RAID necessita da redundância(duplicação de dados) para recuperação de falhas...
 
 Temos 7 principais níveis de RAID. 
+
+________________________________________________________________________________________________________________________________________________________________________
+
+CADERNO (cópia):
+
+- a memória do computador é organizada em uma hierarquia
+- nível mais alto(mais perto do processador)
+	->Registradores
+		->cache(podem ter vários níveis, dependendo da arquitetura)
+			->RAM
+				->Memória externa
+
+- Níveis mais altos da pirâmide, custo mais alto de bits(R$)
+- Componente mais variado que qualquer outro recurso de um sistema de computação
+
+- Tipos de acesso à memória:
+	sequencial
+	aleatório
+	direto
+	associativo
+

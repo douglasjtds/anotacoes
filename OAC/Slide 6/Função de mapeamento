@@ -1,0 +1,48 @@
+INTRUDUÇÃO: 
+
+- Memória principal -> Bloco. Cache -> Linhas
+- Como existem menos linhas nas caches que blocos na memória principal, é necessário haver um algoritmo para mapear os blocos às linhas
+- Além disso, é preciso haver um meio para determinar qual bloco da memória principal atualmente ocupa uma linha da cache
+- Três técnicas podem ser utilizadas:
+	• Direta
+	• Associativa
+	• Associativa em conjunto (set associative)
+
+
+_________________
+MAPEAMENTO DIRETO:
+
+- Técnica mais simples.
+- Mapeia cada bloco da memória principal a apenas uma linha de cache possível.
+
+- Técnica de mapeamento direto é simples, barata e pouco dispendiosa para se implementar
+- Principal desvantagem: um local na cache fixo para cada bloco
+- Se o programa referenciar palavras repetidas de 2 blocos diferentes, mapeados na mesma linha, então os blocos serão continuamente trocados na cache
+- A razão de acerto será baixa
+- Fenômeno conhecido como trashing
+
+
+______________________
+MAPEAMENTO ASSOCIATIVO:
+
+- Compensa a desvantagem do mapeamento direto
+- Permite que um bloco da memória principal seja carregado em qualquer linha da cache
+- A lógica de controle interpreta um endereço de memória simplesmente como um campo TAG e um campo palavra
+- O campo TAG identifica o bloco da memória principal
+- Para verificar se um bloco está na cache, a lógica de controle precisa comparar a TAG de cada linha
+
+- Com o Mapeamento Associativo existe flexibilidade em relação a qual bloco substituir quando um novo bloco for lido da memória principal e transportado para a cache
+- Os algoritmos de substituição são projetados para maximizar a razão de acerto
+- Principal desvantagem do Mapeamento Associativo: complexidade necessária para comparar as TAGs de todas as linhas da cache em paralelo
+
+
+__________________________________
+MAPEAMENTO ASSOCIATIVO EM CONJUNTO:
+
+- Set Associative
+- É um meio termo que realça os pontos fortes das técnicas Direta e Associativa
+- Reduz as desvantagens das duas técnicas
+- Nesse caso a cache é uma série de conjuntos, cada um consistindo em uma série de linhas
+- Um bloco Bj pode ser mapeado para qualquer uma das linhas do conjunto j
+- Assim como no Map. Associativo cada palavra é mapeada para múltiplas linhas da cache
+- TAG e Conjunto especificam a linha na cache

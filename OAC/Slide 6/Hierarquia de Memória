@@ -1,0 +1,26 @@
+- Restrições de memória do computador pode ser resumida em 3 questões: 
+	.Quanto (quantidade)?
+	.Com que velocidade?
+	.Com que custo(valor)?
+
+- Tempo de acesso mais rápido, maior custo por bit.
+- Maior capacidade, menor custo por bit.
+- Maior capacidade, tempo de acesso mais lento.
+
+- Enquanto se desce na hierarquia, ocorre o seguinte:
+	.Diminuição do custo por bit.
+	.Aumento da capacidade.
+	.Aumento do tempo de acesso.
+	.Diminuição de acesso à memória pelo computador.
+
+- Memória Externa (disco, fita, mídia removível) -> também chamada de memória secundária ou memória auxiliar.
+- Memória Interna (RAM, registradores e cache) -> Memória primária
+- Outros níveis podem ser efetivamente introduzidos por meio de software
+- Uma parte da memória principal pode ser usada como buffer para manter temporariamente dados que devem ser levados a disco.
+	- Técnica chamada de cache de disco (puramente software)
+
+- Cache de disco
+	.As operações em disco são agrupadas
+	.Em vez de muitas pequenas transferências, temos poucas grandes transferências
+	.Melhora o desempenho do disco e minimiza o envolvimento do processador
+	

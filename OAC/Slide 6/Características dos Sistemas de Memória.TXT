@@ -37,4 +37,34 @@ Desempenho:
 			Tempo gasto para posicionar o mecanismo de leitura-escrita na posição desejada.
 
 	- Tempo de ciclo de memória:
-		- Aplicável principalmente às... (parei na página 16)
+		- Aplicável principalmente às memórias de acesso aleatório
+		- Compreende o tempo de acesso + um tempo adicional antes de um segundo acesso
+		- Necessário para o desaparecimento de transientes (ruídos) nas linhas de sinal
+		- Esse tempo refere-se ao barramento e não ao processador
+
+	- Taxa de transferência:
+		- Taxa no qual os dados podem ser transferidos de ou para a unidade de memória.
+		- Para memórias de acesso aleatório: 1/tempo_de_ciclo
+		- Para memórias de acesso não-aleatório: 
+			Tn = Ta + (n/R)
+				Tn = Tempo médio para ler ou escrever N bits
+				Ta = Tempo de acesso médio
+				n = número de bits
+				R = taxa de transferência em bits por segundo (bps)
+
+
+Tecnologia: 
+	- Semicondutora (mais comuns)
+		RAM
+	- Memória de superfície magnética
+		Disco ou fita
+	- Óptica
+		CD/DVD
+	- Magneto-óptica
+		Holograma
+
+Características Físicas: 
+	- Volátil: informação se deteriora naturalmente ou se perde quando a energia elétrica é desligada (pulso).
+	- Não-volátil: informação gravada permanente sem deteriorização.
+	- Não-apagável: memória somente leitura (ROM)
+
