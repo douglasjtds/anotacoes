@@ -1,0 +1,50 @@
+- Ritmo de melhoria no desempenho do armazenamento secundário tem sido menor que o ritmo das melhorias dos processadores e memória principal.
+- O sistema de armazenamento em disco é a principal preocupação para a melhoria geral do desempenho.
+
+- Esquema que consiste em 7 níveis (de zero a 6).
+
+obs.: no "ou exclusivo" só dá 1 quando apenas uma opção for verdadeira.
+
+
+
+
+RAID - NÍVEL 0:
+
+	- Não é considerado um membro verdadeiro da família RAID (Apenas distribui os dados entre os discos)
+	- não garante muita confiabilidade porém é mais rápido.
+	- utilizado em supercomputadores onde o desempenho é o mais importante.
+	- DESVANTAGEM: ao perder 1 disco, a perda é irrecuperável
+	- (array de disco)
+...
+
+RAID - NÍVEL 1:
+
+	-  Inclui redundância ("redundância redundante")
+	- Para essa redundância não é realizado nenhuma forma de cálculo
+	- Os dados são simplesmente copiados (espelhados)
+	- Utiliza striping de dados (como no RAID 0). Nesse caso os dados são mapeados para dois discos separados.
+
+	- Aspectos positivos (vantagens):
+		• Uma requisição pode ser atendida por qualquer um dos dois discos. O que possuir 
+		a menor latência rotacional
+		• Gravação requer que os dois strips correspondentes sejam atualizados, mas pode ser feita em paralelo
+		• Recuperação de falhas é simples: quando uma unidade falha, os dados ainda podem 
+		ser acessados na segunda unidade
+...
+
+RAID - NÍVEL 2:
+	- Só seria indicado em um ambiente onde ocorram muitos erros de disco
+	- Tecnologia cara 
+	- Geralmente é considerado um exageiro 
+
+
+RAID - NÍVEL 3:
+	- Exige apenas um disco de redundância, não importando o tamanho dos discos.
+	- Em vez de um código de correção de erro, um bit de paridade simples 
+	é calculado para o conjunto de bits individuais, na mesma posição, em todos os discos.
+	- No caso de falha de disco, a unidade de paridade é acessada e os dados são reconstruídos.
+	- Quando a unidade que falhou for substituída, os dados que faltam podem ser restaurados na nova unidade.
+
+
+RAID - NÍVEL 4:
+	- 
