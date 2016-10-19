@@ -1,0 +1,27 @@
+- É bastante útil para o reuso de código.
+	- evitar reeinventar a roda.
+	- Economiza-se tempo.
+	- Aumenta-se a qualidade do software, pois partes reutilizadas já foram testadas e depuradas.
+	- Diminui-se o custo do software.
+
+- Prestar atenção quando dizer "é um", está falando sobre herança.
+
+
+- Herança é um recurso que permite que novas classes sejam definidas a partir de classes já definidas.
+
+- Se a classe mãe(superclasse) possui um método construtor, o filho(subclasse) é obrigado a
+chamar esse método construtor:
+	super('passar os parâmetros'); //chama o construtor
+	super.algumaCoisa; //chama um método da mãe
+
+
+
+
+
+
+
+
+
+//JPrompt.printPane();
+//toString;
+
