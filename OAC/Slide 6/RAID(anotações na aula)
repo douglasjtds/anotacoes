@@ -48,3 +48,27 @@ RAID - NÍVEL 3:
 
 RAID - NÍVEL 4:
 	- 
+
+
+
+RAID - NÍVEL 5:
+
+	- Distribui a paridade entre todos os discos (diferente do RAID 4)
+
+
+
+
+RAID - NÍVEL 6:
+
+	- Permite maior segurança na recuperação de falhas
+	- Diferença principal, guarda duas paridades
+	- grava paridade paralelamente
+	- pode sofrer mais de 30%
+	- dois calculos de paridade são feitos, um com o "ou exclusivo"(como no RAID 4 e 5) e o outro com
+	um algorítmo de regeneração de dados independente
+		- esse algorítmo 
+
+
+
+RAID - NÍVEL 10:
+		

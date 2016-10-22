@@ -9,10 +9,17 @@
 
 - Herança é um recurso que permite que novas classes sejam definidas a partir de classes já definidas.
 
-- Se a classe mãe(superclasse) possui um método construtor, o filho(subclasse) é obrigado a
+- Se a classe mãe(superclasse direta) possui um método construtor, o filho(subclasse direta) é obrigado a
 chamar esse método construtor:
 	super('passar os parâmetros'); //chama o construtor
 	super.algumaCoisa; //chama um método da mãe
+
+
+
+
+
+
+
 
 
 
