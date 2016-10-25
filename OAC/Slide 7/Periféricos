@@ -1,2 +1,51 @@
 ENTRADA/SAÍDA (I/O)
 
+- O módulo E/S e o processador devem sempre se comunicar e isso pode acontecer de duas maneiras.
+- cada periférico ligado ao módulo tem sua interface para acesso e controle de operações.
+
+
+E/S PROGRAMADA X E/S POR INTERRUPÇÃO
+
+- Na maioria das vezes, em ambas, quem acessa os dados na memória principal continua sendo o processador
+
+
+	E/S PROGRAMADA (não é tão utilizada mais)
+
+		- Controle:
+			.Usado para ativar um periférico.
+			.Instruir uma fita magnética a rebobinar ou mover um registrador para frente.
+			.Ajustado a um típico específico de periférico.
+		- Teste:
+			.Usado para testar condições de estado do módulo E/S e periféricos.
+			.Ex.: verificar se o periférico está ligado e pronto para uso.
+			.Verificar se o periférico terminou e se houve algum erro.
+		- Leitura:
+			.Faz com que o módulo E/S obtenha um dado do periférico.
+			.Coloque esse dado em buffer interno (registrador de dados).
+			.O processador pode obter o dado solicitando ao Módulo que o coloque no barramento de dados.
+		- Escrita:
+			.Faz com que o módulo apanhe um idem de dado no barramento de dados.
+			.Transmite/envia esse dado até o periférico.
+
+		Obs.: O grande problema da E/S Programada é o tempo que o processador precisa ficar parado esperando que o 
+		módulo e os periféricos respondam.
+
+	E/S POR INTERRUPÇÃO
+
+		//anotações aqui
+
+		Obs.: O processador não atende imediatamente a interrupção, para que não perca tempo com o que ele já está fazendo e para que dê prioridade a possíveis tarefas de "emergência"
+
+
+
+
+ACESSO DIRETO À MEMÓRIA (RAM)
+
+		Obs.: (bom pra cair em prova) -> Quando o módulo resolve fazer um acesso direto à memória ele tem que informar isso ao processador, e quando
+		ele termina, é a mesma coisa.
+
+
+EVOLUÇÃO DA E/S
+
+	Obs.: Primeiro grande ganho, inteface. Mas o maior de todos foi a implantação da interrupção (não precisar que 
+	o processador fique esperando uma tarefa do módulo)
