@@ -1,0 +1,10 @@
+- O lançamento (ou sinalização) de exceções pode ser realizado:
+	- AUTOMATICAMENTE: o próprio mecanismo de exceção é o responsável pelo lançamento da exceção. 
+	Esta situação pode surgir em qualquer ponto do programa passível de ocorrência de situação anormal.
+	Exemplo: usuário informa uma string em uma leitura de dado do tipo float.
+
+	- EXPLICITAMENTE: o programador realiza o lançamento de uma exceção. 
+	O exemplo a seguir mostra um lançamento explícito de exceção em Java. Para tal, emprega-se a 
+	palavra reservada throw.
+		throw new Exception();
+	

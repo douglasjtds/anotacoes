@@ -1,0 +1,59 @@
+O tratamento de exceções serve basicamente para garantir a robustez de um programa. Controlar o fluxo de
+execução do programa.
+
+	Robustez: é a capacidade de um software continuar em operação corretamente mesmo em condições anormais.
+
+
+Exceção: “É um evento ocorrido durante a execução de um programa que desvia o fluxo normal de instruções.”
+	“É uma condição provocada por uma situação excepcional que requer uma ação específica imediata.”
+
+Quando a Linguagem de Programação utilizada não fornece mecanismos para exceções, o programador usa recursos como:
+	- Abortar o programa (fechar na cara do usuário)
+	- Utilizar códigos de erro
+
+
+- Para CRIAR uma exceção em Java, pode-se usar herança da classe pré-definida Exception.
+	public class NomedaExececao extends Exception {
+		public NomeSuaExcecao(String mensagemPersonalizada) {
+			super(mensagemPersonalizada);
+		}
+
+		//outros métodos
+	}
+
+
+
+Obs.: FileNotFoundException é uma filha de IOException. Se for usar vários catch, colocar na ordem da filha pra mãe.
+
+
+- Tratadores de exceções são trechos de códigos responsáveis por tomar atitudes em resposta à 
+ocorrência de uma exceção.
+	- Em Java: 
+		- os comandos do bloco try são os tratados; 
+		- os comandos das cláusulas catch correspondem ao tratamento das exceções ocorridas no
+		bloco try correspondente;
+		- podem ser incluídas várias cláusulas catch após o try;
+		- a cada catch corresponde um classe de exceções.
+
+
+- TERMINAÇÃO: quando ocorre um exceção, o erro é considerado como crítico e a execução não retorna
+ao ponto no qual foi gerada.
+
+		- A execução é desviada para um ponto externo e são encerradas as unidades na pilha de execução, 
+		a partir do ponto onde ocorreu a exceção até a unidade anterior a que o tratador de exceção foi executado.
+
+		- A execução continua na unidade na qual o tratador foi encontrado.
+
+	- A cláusula finally de Java:
+		- Em algumas situações, pode ser necessária a execução de um conjunto de comandos, 
+		independente da ocorrência de exceção no bloco try.
+
+		- A cláusula finally de Java provê este recurso.
+
+		- Em geral, este recurso é utilizado quando deseja-se restabelecer o estado de algum objeto 
+		de forma independente da ocorrência e da propagação de exceções. 
+		Por exemplo, quando deseja-se encerrar conexões com banco de dados ou fechar arquivos 
+		quando ocorrer uma exceção qualquer.
+
+
+(continuar na página 28)
