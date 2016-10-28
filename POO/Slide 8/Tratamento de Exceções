@@ -55,5 +55,9 @@ ao ponto no qual foi gerada.
 		Por exemplo, quando deseja-se encerrar conexões com banco de dados ou fechar arquivos 
 		quando ocorrer uma exceção qualquer.
 
+		- É possível a existência de bloco try sem a associação de uma cláusula catch. 
+		Mas, não é possível a existência de um bloco try sem pelo menos um cláusula catch ou finally.
 
-(continuar na página 28)
+		- Em outras palavras, um bloco try pode não possuir cláusulas catch, mas, neste caso, 
+		deve possuir então uma cláusula finally.
+
