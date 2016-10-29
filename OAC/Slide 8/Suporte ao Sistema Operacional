@@ -1,0 +1,116 @@
+- Duas funções principais do SO(só podem ser feitos se o processador der suporte à isso, praticamente todos
+o fazem):
+	-> Escalonamento: (uma das tarefas mais complexas e importantes do SO) 
+		- dividir o tempo de CPU igualmente entre os processos.
+
+	-> Gerenciamento de memória:
+
+
+
+O foco da disciplina de OAC é hardware, entretanto a interação do SO com o hardware é tão grande 
+e importante que deve ser mostrado.
+
+
+O SO tem dois principais objetivos:
+	- Conveniência: o SO torna o computador mais conveniente para o uso, mais amigável.
+
+	- Eficiência: compartilhar a máquina com vários programas. Um SO permite que os recursos do 
+	sistema de computação sejam de uma maneira eficiente.
+
+
+______________________________
+INTERFACE USUÁRIO / COMPUTADOR
+- Usuário final não se preocupa com a arquitetura do computador.
+- Usuário vê um sistema de computação em termos de uma aplicação.
+- Essa aplicação é expressa em uma linguagem de programação.
+- Desenvolver um programa com um conjunto de instruções do processador, responsável por controlar o hardware, 
+é uma tarefa complexa, para facilitar este processo existe um conjunto de programas chamados UTILITÁRIOS. 
+	- Eles implementam funções usadas com frequência:
+		- Gerenciamento de arquivos e memória
+		- Controle de dispositivos de E/S
+- O SO esconde os detalhes de Hardware do programador e oferece uma interface conveniente para usar o sistema.
+
+___________________________
+SERVIÇOS OFERECIDOS PELO SO
+
+- Criação de programas: editores, depuradores. Esses programas não fazem parte do SO, 
+mas são acessíveis por meio dele.
+- Execução do programa: diversas tarefas precisam ser feitas para executar um programa. 
+Carregar o programa na memória, iniciar dispositivos E/S, etc...
+- Acesso aos dispositivos E/S: SO cuida dos detalhes. Drivers. Programador pensa em simples leituras e escritas.
+
+- Acesso controlados aos arquivos: inclui conhecimento da natureza do dispositivo (disco, fita) 
+e o formato do arquivo. Controle de múltiplos acessos
+- Acesso ao sistema: gestão de segurança
+- Detecção e resposta a erros: grande quantidade de erros podem acontecer. 
+	Erros de hardware (memória, disco), erros de software, etc...
+- Contabilidade: SO coleta estatísticas de uso e monitora os parâmetros de desempenho, como o tempo de resposta.
+
+
+____________________________
+SO - GERENCIADOR DE RECURSOS
+
+- Geralmente imaginamos um sistema de controle como algo separado daquilo que está sendo controlado. O que
+não acontece com o SO.
+	- O Sistema Operacional é um software comum de computador, ou seja, ele também é executado pelo processador.
+	- SO depende do processador para conseguir fazer o controle.
+- SO precisa abrir mão do controle para que o processador possa trabalhar em outros programas.
+
+- Uma parte do SO está na memória principal (Kernel / Núcleo) – funções mais utilizadas, 
+outras partes vão para a memória por demanda.
+• Resto da memória contém programas e dados do usuário
+• A alocação desse recurso (memória principal) é controlada pelo próprio SO
+• O próprio processador é um recurso
+•
+SO determina o tempo de processador para cada programa em execução
+• No caso de muitos processadores, essa decisão deve abranger todos eles
+
+
+___________
+TIPOS DE SO
+
+-Interativo:
+	• Programador/usuário interage diretamente com o computador
+	• Normalmente por meio de um terminal, para solicitar a execução de um job
+- Lote (Batch)
+	• Oposto do interativo
+	• Programa do usuário é mantido com outros programas de outros usuários
+	• Submetido por um operador de computador ou automaticamente
+	• Depois que o programa termina os dados são impressos para os usuários
+
+- Sistemas antigos:
+	• Década de 40 e início de 50
+	• Programador interagia diretamente com o hardware do computador
+	• Processadores eram executados a partir de um console, com lâmpadas,
+	chaves de duas posições, dispositivo de entrada e uma impressora
+	• Não havia SO
+	• Os programas eram carregados no computador por meio de um dispositivo
+	de entrada (Ex.: leitora de cartões)
+	• Se acontecesse um erro uma lâmpada indicava
+	• Esses sistemas antigos apresentavam alguns problemas
+
+	- Escalonamento:
+		• Usava-se uma folha de registro para reservar o tempo do processador
+		• Normalmente, um usuário reservava o uso por períodos de tempo em
+		múltiplos de 1 hora
+		• Se o usuário reservava 1 hora e o job terminava em 45 minutos
+		• Isso resultava em tempo de processador ocioso
+		• Por outro lado o tempo poderia não ser suficiente e o usuário seria forçado a
+		terminar o trabalho antes de solucionar o problema
+
+	• Esses sistemas antigos apresentavam alguns problemas:
+	- Tempo de preparação:
+		• Preparar a execução de apenas um job era trabalhoso
+		• Consistia em carregar o compilador, o programa na linguagem de alto nível
+		(fonte) na memória, salvar o programa compilado, etc
+		• Cada uma dessas etapas poderia envolver a montagem e/ou desmontagem
+		de fitas, pacotes, cartões, etc
+		• Se houvesse um erro, o usuário normalmente tinha que voltar ao início da
+		sequência de preparação
+		• Tempo de setup
+		• Esse modo de operação poderia ser chamado de processamento serial
+		• Usuários têm acesso ao computador em série
+
+
+
+(parei no slide 21)...
