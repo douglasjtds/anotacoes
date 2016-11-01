@@ -1,0 +1,22 @@
+• Considere a instrução em linguagem de alto nível: X = X + Y
+• Deve-se somar o valor de Y ao já existente em X e guardar o resultado em X
+• Suponha que X e Y correspondam aos locais 513 e 514, respectivamente
+• Essa operação poderia ser feita em 3 instruções:
+• 1 – Carregue um registrador com o conteúdo de memória 513
+• 2 – Some o conteúdo do local de memória 514 ao registrador
+• 3 – Armazene o conteúdo do registrador no local de memória 513
+• Uma única instrução em Fortran pode exigir 3 instruções de máquina
+
+• Uma linguagem de alto nível expressa operações em uma forma algébrica concisa, usando variáveis
+• Linguagem de máquina expressa operações em uma forma básica envolvendo movimentações de dados de e para os registradores
+• Qualquer programa escrito em uma linguagem de alto nível precisa ser traduzido
+para linguagem de máquina
+
+- Podemos categorizar os tipos de instruções da seguinte forma:
+	• Processamento de Dados: instruções aritméticas e lógicas. Cálculos.
+	• Armazenamento de Dados: movimentação de dados para dentro ou fora do
+	registrador e/ou locais de memória
+	• Movimentação de Dados: Instruções de E/S. Transferir dados de e para o
+	usuário
+	• Controle: controle de teste e desvio. Usadas para desviar para um conjunto de
+	instruções diferente, dependendo da decisão tomada.

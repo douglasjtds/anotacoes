@@ -1,0 +1,16 @@
+- Cada instrução é representada por uma sequência de bits
+- A instrução é dividida em campos, que constituem a instrução
+- Durante a execução da instrução, uma instrução é lida para um registrador de instrução (IR) do processador
+- O processador precisa ser capaz de extrair os dados dos diversos campos da instrução para realizar a operação exigida.
+- Por ser difícil lidar com representações binárias das instruções, tornou-se prática comum usar 
+uma representação simbólica das instruções
+- Os opcodes são representados por abreviações, chamadas mnemônicos, que indicam a operação. Exemplos comuns:
+	ADD: Adiciona
+	SUB: Subtrai
+	MUL: Multiplica
+	DIV: Divide
+	LOAD: Carrega dados da memória
+	STOR: Armazena dados na memória
+
+	- Operandos também são representados simbolicamente. Ex.: ADD X, R, Y
+	- Pode significar somar o valor contido no local de dados Y com o conteúdo do registrador R.

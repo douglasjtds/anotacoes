@@ -1,0 +1,24 @@
+- O ponto onde o projetista da maquina e o programador se encontram é justamente o conjunto de instruções de máquina.
+- A operação do processador é determinada pelas instruções que ele executa, conhecidas como instruções de máquina.
+- A coleção de diferentes instruções ...
+
+- A instrução é dividida em campos, e o primeiro campo tem que ser o código da operação.
+	- Código de operação
+	
+	- Referência ao Operando Fonte (origem do dado que a gente quer alterar)
+		- Operação pode envolver um ou mais operandos fontes
+		- Operando que são entradas para a operação
+	- Referência ao Operando Destino (resultado da operação depois de executado sobre um ou mais operandos)
+
+	- Referência à próxima Instrução
+		- Isso diz ao processador onde busca a pŕoxima instrução
+
+
+- Operandos Origem e Destino podem estar em uma destas 4 áreas:
+	- Memória principal ou virtual: o endereço da memória principal ou virtual precisa ser fornecido.
+	- Registrador do processador: possuem operandos que podem ser referenciados por instruções de máquina. Instrução
+	precisa conter o número do registrador desejado.
+	- Imediato: o valor do operando está em um campo da instrução atual
+	- Dispositivos de E/S: a instrução precisa especificar o módulo e o dispositivo E/S para a operação. 
+	Se o dispositivo estiver mapeado na memória, este será utilizado.
+

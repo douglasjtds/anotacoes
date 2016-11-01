@@ -1,0 +1,9 @@
+- Esse projeto é muito complexo, pois afeta muitos aspectos do sistema deverão computador
+- O conjunto de instruções é o meio do programador controlar o processador
+- As questões básicas do projeto são:
+	- Repertório de Operações: quantas e quais operações oferecer. Qual complexidades essas operações deverão ter?
+	- Tipos de Dados: os diversos tipos de dados sobre os quais as operações são realizadas.
+	- Formato de Instrução: tamanho da instrução em bits, número de endereços,
+	tamanho dos campos, etc
+	- Registradores: número de registradores do processador que podem ser referenciados por instrução e seu uso.
+	- Endereçamento: modo ou modos pelos quais o endereço de um operando é especificado.
