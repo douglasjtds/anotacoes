@@ -34,18 +34,17 @@ E/S PROGRAMADA X E/S POR INTERRUPÇÃO
 
 		//anotações aqui
 
-		Obs.: O processador não atende imediatamente a interrupção, para que não perca tempo com o que ele já está fazendo e para que dê prioridade a possíveis tarefas de "emergência"
+		Obs.: O processador não atende imediatamente a interrupção, para que não perca tempo com o que ele já está fazendo e para que dê prioridade a possíveis tarefas de "emergência" ou de maior importância.
 
 
 
 
 ACESSO DIRETO À MEMÓRIA (RAM)
 
-		Obs.: (bom pra cair em prova) -> Quando o módulo resolve fazer um acesso direto à memória ele tem que informar isso ao processador, e quando
-		ele termina, é a mesma coisa.
+		Obs.: (bom pra cair em prova) -> Quando o módulo resolve fazer um acesso direto à memória ele tem que informar isso ao processador, e quando ele termina, é a mesma coisa. (informar que terminou)
 
 
 EVOLUÇÃO DA E/S
 
 	Obs.: Primeiro grande ganho, inteface. Mas o maior de todos foi a implantação da interrupção (não precisar que 
-	o processador fique esperando uma tarefa do módulo)
+	o processador fique esperando uma tarefa do módulo).

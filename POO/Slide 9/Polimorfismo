@@ -1,0 +1,44 @@
+- Verificação de tipos: "atividade que garante que os operandos utilizados com um operador sejam tipos compatíveis".
+- Tipo compatível: “é um tipo cujos valores são adequados para a realização da operação designada 
+pelo operador ou que pode ser convertido implicitamente em um tipo cujos valores sejam adequados.”
+
+- Linguagens de programação fracamente tipadas: somente parte dos erros de tipos são verificados.
+	ex.: C
+	Em C, um ponteiro para float pode acessar uma posição de memória ocupada por um char, por exemplo.
+
+- Linguagens de programação fortemente tipadas: realizam uma verificação extremamente ampla de tipos.
+	ex.: Java.
+
+____________
+POLIMORFISMO (programar de várias formas): é a característica que possibilita a criação de código capaz de 
+operar sobre valores distintos. No caso de funções, possibilita uma mesma assinatura ser implementada de 
+formas distintas em classes distintas. 
+
+	- Por exemplo, onde se espera um dado de um tipo de X, é possível receber um dado de um tipo Y.
+
+-> Coersão: é a conversão implícita de tipos.
+
+Quando uma operação é realizada sobre um operando de tipo diferente do esperado, o compilador verifica se 
+é possível realizar a conversão.
+	- Por exemplo, em C, um valor char pode ser convertido implicitamente para um valor int.
+		int a;
+		char c = ‘k’;
+		a = c;
+
+-> Downcast e o Cast são as conversões explícitas:
+	- Downcast(de filho pra pai) é a conversão explícita do tipo de um objeto para a sua própria classe ou para uma de suas superclasses.
+	- Cast(de mãe pra filho), em geral, também ilustra a conversão explícita do tipo de um objeto para a sua própria classe 
+	ou para uma subclasse.
+
+		- Exemplo 1: Downcast de um objeto f da classe Funcionario para a sua superclasse Pessoa.
+			Pessoa p = (Pessoa) f;
+
+
+		- O operador instanceof verifica se um objeto é instância de determinada classe.
+			-Sintaxe:
+				obj instanceof classe
+
+				-Se o objeto for instância da classe, a operação resulta em true, caso contrário, resulta em false.
+
+
+(...) - continuar do slide 08
