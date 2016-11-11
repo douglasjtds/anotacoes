@@ -1,0 +1,74 @@
+- Número de opcodes varia bastante de uma máquina para outra.
+- Tipos gerais de operações são encontrados em todas as máquinas:
+	- Transferência de Dados
+	- Aritmética
+	- Lógica
+	- Conversão
+	- E/S
+	- Controle do Sistema
+	- Transferência de Controle
+
+
+-> Transferência de Dados:
+	- Tipo mais fundamental/importante de instrução de máquina.
+	- Precisa-se especificar algumas coisas:
+		- Local dos operandos de origem e destino (endereços de memória, registrador, topo da pilha)
+		- Estensão dos dados a serem transferidos precisa ser indicada.
+	- Um dos tipos de operações mais simples feita pelo processador.
+	- Se origem e destino forem registradores é uma operação interna ao processador.
+
+-> Aritméticas:
+	- Maioria das máquinas oferecem operações aritméticas básicas.
+	- Adição, subtração, multiplicação e divisão.
+	- Outras operações possíveis incluem uma série de operações em um único operando:
+		- Absolute: apanha o valor absoluto do operando
+		- Negate: inverte o sinal do operando
+		- Increment/Decrement: soma/subtrai 1 ao/do operando
+
+-> Lógicas:
+	- Maioria das máquinas oferecem operações para manipular bits individuais
+	- Operações lógicas básicas que podem ser realizadas
+		- Not: inverte um bit.
+		- AND/OR/Exclusive-OR(XOR): são as funções lógicas mais comuns com dois operandos.
+
+-> Conversão:
+	- Exemplo de conversão: decimal para binário
+	- Caractére em binário
+
+-> Entrada/Saída:
+	- Diversas técnicas podem ser usadas, como vimos anteriormente
+	- E/S Programada, DMA e uso de processador exclusivo
+
+-> Controle do Sistema:   (continuar no slide 43)
+	-  São aquelas instruções que só podem ser executadas quando o processador está:
+		• Em um certo estado privilegiado
+		• Está executando um programa em uma área privilegiada especial da memória
+	• Normalmente essas instruções são reservadas ao sistema operacional
+	• Alguns exemplos:
+		• Instruções que alteram um registrador de controle
+		• Instrução para ler ou modificar uma chave de proteção de armazenamento
+
+-> Transferência de Controle (Desvios):
+	• A próxima instrução a ser realizada é aquela que, na memória, vem
+imediatamente após a instrução atual
+• Em um programa, uma fração significativa das instruções tem como função mudar
+a sequência de execução das instruções
+• Existem vários motivos para utilizar operações de transferência de controle
+• Executar uma instrução mais de uma vez (ou milhares de vezes). Loops
+• Tomada de decisão. Condição verdadeira ou falsa
+• Dividir o programa em tarefas menores. Modularização
+
+• Instruções de Desvio:
+	• Tem como um de seus operandos o endereço da próxima instrução
+	• Normalmente é uma instrução de desvio condicional
+	• Um instrução de desvio em que o desvio sempre é tomado é um desvio
+	incondicional
+
+• Instruções de Salto (Skip):
+	• Não exige um campo de endereço de destino
+	• ISZ – Increment and Skip if Zero
+	• Implementa um loop interativo
+	• Ao final do loop R1 é incrementado
+	• Se não for zero o programa desvia e volta ao início
+	• Caso contrário o desvio é pulado e o programa executa a
+	próxima instrução após o final do loop

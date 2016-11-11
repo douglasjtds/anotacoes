@@ -1,0 +1,19 @@
+- Um operando dentro de uma instrução contém o valor atual do operando ou uma referência para o endereço do operando
+- Grande variedade de modos de endereçamento é usada: 
+	- Modo imediato, direto, indireto, registrador, registrador indireto, deslocamento e pilha.
+
+-> Endereçamento Imediato: 
+	- Forma mais simples de endereçamento
+	- O valor do operando está presente na instrução 
+	• Bit a esquerda do campo do operando é usado como bit de sinal
+	• Vantagem: nenhuma referência à memória. Economiza-se em ciclo de memória ou
+	cache. 
+	• Desvantagem: tamanho do número é limitado ao tamanho do campo de endereço. Na
+	maioria dos casos é pequeno
+
+-> Endereçamento Direto: 
+	• Forma muito simples de endereçamento
+	• Campo de endereço contém o endereço efetivo do operando
+	• Técnica comum nas primeiras gerações de computadores, porém não é mais comum
+	• Vantagem: Requer apenas uma referência de memória e nenhum cálculo especial
+	• Desvantagem: oferece um espaço de endereços limitados

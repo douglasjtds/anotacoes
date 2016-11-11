@@ -1,0 +1,31 @@
+Instruções de máquina operam sobre dados.
+• Categoria de dados mais importantes: endereços, números, caracteres e dados
+lógicos
+• Algumas máquinas definem tipos de dados ou estruturas especializadas
+• Exemplo: operações de máquina que operam diretamente sobre uma lista ou uma
+string de caracteres
+
+• Todas as linguagens de máquina incluem dados numéricos
+• Até mesmo em operações não numéricas existe a necessidade de os números
+atuarem como contadores, tamanho de campo, etc
+• Existe um limite para a magnitude dos números representáveis em uma máquina
+• No caso de um ponto flutuante, existe um limite em sua precisão
+• Três tipos de dados são comuns em computadores:
+	-Inteiros
+	• Ponto flutuante
+	• Decimal
+
+• Embora as operações internas sejam binárias por natureza, humanos lidam com
+sistema decimalx
+• Assim, existe a necessidade de converter binário decimal e vice-versa
+• Para aplicações onde existe muito E/S e poucos e simples cálculos é preferível
+armazenar e operar o número em formato decimal (Decimal Agrupado)
+
+• Decimal Agrupado: cada dígito é representado por um número de 4 bits
+• 2 dígitos por byte. Assim, 0 = 0000, 1 = 0001, ..., 8 = 1000 e 9 = 1001
+• 246 = 0000 0010 0100 em decimal agrupado (menos eficiente em termos de
+espaço – sem overhead de conversão)
+• 246 = 1111 0110 em binário puro (mais eficiente em termos de espaço – com
+overhead de conversão) 
+
+(estudar parte que eu perdi, à partir do slide 26)
