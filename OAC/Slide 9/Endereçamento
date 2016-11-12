@@ -17,3 +17,19 @@
 	• Técnica comum nas primeiras gerações de computadores, porém não é mais comum
 	• Vantagem: Requer apenas uma referência de memória e nenhum cálculo especial
 	• Desvantagem: oferece um espaço de endereços limitados
+
+-> Endereçamento Indireto:
+	• Tamanho do campo do endereço é normalmente menor. Limita-se o intervalo de endereços
+	• Solução é ter um campo de endereços se referindo ao endereço de uma palavra na memória, o qual, 
+	por sua vez, contém o endereço completo do operando
+	• Vantagem: maior espaço para o endeçamento
+	• Desvantagem: a execução da instrução requer duas referências para obter o operando
+
+-> Endereçamento de Registradores:
+	(à partir daqui, não tem no slide ainda)...
+
+-> Endereçamento Indireto por Registradores:
+
+-> Endereçamento por pilha:
+	- A pilha é um bloco reservado de posições
+	- Itens são adicionados ao topo da pilha

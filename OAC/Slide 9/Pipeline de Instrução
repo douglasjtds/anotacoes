@@ -1,0 +1,13 @@
+- Semelhante ao uso de uma linha de montagem em uma indústria.
+- Em uma linha de montagem, tira-se vantagem do produto passar por vários estágios da produção.
+- Produtos de vários estágios podem ser trabalhados simultaneamente.
+- Esse processo é chamado de pipelining.
+- Novas entradas são aceitas antes que entradas aceitas anteriormente apareçam como saída.
+
+
+
+
+ps.: objetivo principal é manter o processador ocupado o tempo todo, para aproveitá-lo ao máximo.
+
+ ---- "dé importantíssimo saber isso aqui" ----
+(CONTINUAR DO RESTO DO SLIDE QUE O PROFESSOR NÃO COLOCOU NO SOL)
