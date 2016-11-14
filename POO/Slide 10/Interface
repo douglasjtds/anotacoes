@@ -1,0 +1,16 @@
+- Uma interface especifica quais operações uma classe (ou um conjunto de classes) deve possuir, mas não especifica como elas devem ser implementadas.
+- Exemplos:
+	- Aparelho de rádio:
+		- Possui um conjunto de operações padronizadas, tais como mudar de estação, ajustar o volume, escolher entre AM e FM
+		- Mas diferentes rádios podem implementar as operações de maneiras diferentes.
+
+	- Carro:
+		- Possui um conjunto de serviços que o motorista utiliza, por exemplo, volante, caixa de cambio, (...)
+
+
+- Interface de Java é um recurso que permite especificar os serviços de uma classe.
+		interface Forma {...}
+	- Uma (...)
+
+- Interface é 
+

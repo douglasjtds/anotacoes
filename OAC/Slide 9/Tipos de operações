@@ -1,5 +1,5 @@
 - Número de opcodes varia bastante de uma máquina para outra.
-- Tipos gerais de operações são encontrados em todas as máquinas:
+- Tipos gerais de operações que são encontrados em todas as máquinas:
 	- Transferência de Dados
 	- Aritmética
 	- Lógica
@@ -13,7 +13,7 @@
 	- Tipo mais fundamental/importante de instrução de máquina.
 	- Precisa-se especificar algumas coisas:
 		- Local dos operandos de origem e destino (endereços de memória, registrador, topo da pilha)
-		- Estensão dos dados a serem transferidos precisa ser indicada.
+		- Extensão dos dados a serem transferidos precisa ser indicada.
 	- Um dos tipos de operações mais simples feita pelo processador.
 	- Se origem e destino forem registradores é uma operação interna ao processador.
 
