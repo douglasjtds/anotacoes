@@ -1,0 +1,8 @@
+- Sistema operacional com suporte ao SMP gerencia processadores e outros recursos.
+- O usuário pode construir aplicações que usam vários threads sem se preocupar se um único processador ou vários processadores estarão disponíveis.
+- O SO deve fornecer toda a funcionalidade de um sistema multiprogramado.
+- SO fornece ainda:
+	- Escalonamento
+	- Sincronização
+	- Gerenciamento de memória
+	- Confiabilidade e tolerância a falhas

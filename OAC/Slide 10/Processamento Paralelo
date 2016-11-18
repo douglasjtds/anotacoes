@@ -1,0 +1,35 @@
+- Um jeito tradicional de melhorar o desempenho do sistema é usar multiplos processadores.
+- Tradicionalmente o computador tem sido visto como uma máquina sequencial.
+- A maioria das linguagens de programação exige que o programador especifique uma sequência de instruções.
+- Os processadores executam as instruções em sequência, uma por vez.
+- Essa visão de computador nunca foi totalmente verdadeira.
+
+- Em nível de micro-operações, vários sinais de controle são gerados ao mesmo tempo.
+- Pipeline de instruções é um caso (sobreposição de leitura e execução)
+- Tecnologia evoluiu e o custo do hardware baixou
+- Projetistas procuraram mais oportunidades para o paralelismo
+- Vamos falar de organizações de múltiplos processadores:
+
+_____________________________
+MULTIPROCESSADORES SIMÉTRICOS:
+- Até pouco tempo quase todos os computadores pessoais e a maioria das estações de trabalho continham um único microprocessador de propósito geral.
+- A medida que a demanda por processamento aumenta e o custo baixa, fabricantes introduzem sistemas com uma organização SMP
+- SMP -> Multiprocessador simétrico:
+	- Múltiplos processadores compartilham uma única memória e barramento
+	- O tempo de acesso à memória ou ao barramento é aproximadamente o mesmo para cada processador
+
+- Características do SMP:
+	- Dois ou mais processadores semelhantes
+	- Esses processadores compartilham a mesma memória principal e recursos de E/S.
+	- Processadores interconectados pelo mesmo barramento
+	- Todos os processadores compartilham acesso ao dispositivo E/S
+	- Todos os processadores desempanham as mesmas funções (são simétricos)
+	- Todo esse sistema é controlado por um SO
+
+- Um SO de um SMP faz o agendamento de processos ou threads por meio de todos os processadores:
+-Vantagens:
+	- Desempenho: tarefas paralelas, menor tempo.
+	- Disponibilidade: a falha de um processador não trava a máquina.
+	- Crescimento Incremental: pode-se melhorar o desempenho acrescentando mais processadores.
+	- Escalabilidade: desempenho melhora com mais recursos.
+- Benefícios potenciais, mas não garantidos. O SO deve oferecer funções para o paralelismo.

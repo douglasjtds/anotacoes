@@ -1,0 +1,21 @@
+- Existem dois ou mais processadores. Cada um é auto-suficiente
+- Incluí uma unidade de controle, uma ALU, registradores e níveis de cache
+- Cada processador possui acesso à memória principal compartilhada e dispositivos E/S
+- Os processadores podem se comunicar por meio da memória (mensagens e informações de estado são colocadas em áreas comuns da memória)
+- Processadores também podem trocar mensagens diretamente (possuem comunicação entre si)
+- Em algumas configurações, cada processador pode ter sua própria memória principal
+
+- A organização mais comum é o barramento de tempo compartilhado
+- Esse é o mecanismo mais simples para construir um sistema multiprocessador
+- As estruturas e as interfaces são as mesmas de um sistema de processador único
+- Tempo compartilhado para os módulos E/S
+- Simplicidade: interface física e lógica de endereçamento permanece a mesma, como em um sistema com um processador
+- Flexibilidade: normalmente é fácil expandir o sistema, adicionando mais processadores ao barramento
+- Confiabilidade: uma falha em qualquer dispositivo não quer dizer uma falha geral
+
+- Principal desvantagem da organização de barramento é o desempenho.
+- Todas as referências à memória passam pelo barramento comum.
+- Para melhorar o desempenho, cada processador possui uma cache
+- Alterações em uma linha da cache pode invalidar esse dado em outra cache
+- Outros processadores devem ser "avisados" que houve essa alteração
+	- Isso é conhecido como "Coerência de Cache"

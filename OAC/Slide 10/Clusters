@@ -1,0 +1,39 @@
+- Estão ligados à grupos de máquinas.
+Definição: grupo de computadores completos, interconectados e trabalhando juntos.
+____
+
+- Recurso importante e relativamente recente no projeto de computadores.
+- Alternativa para multiprocessamento simétrico
+- Alternativa para alto desempenho e disponibilidade.
+- O termo "computador completo" (na definição acima) significa um sistema que pode funcionar por si só.
+- Cada computador de um cluster é chamado de nó
+- Popularização com a computação em nuvem.
+
+-> BENEFÍCIOS DOS CLUSTERS:
+	- Escalabilidade robusta: é possível criar cluster grandes que ultrapassam em centenas e até milhares de nós
+	- Escalabilidade incremental: é possível adicionar recursos. Pode-se começar com um sistema modesto e expandi-lo, sem grandes modificações.
+	- Alta disponibilidade: cada nó é independente. A falha de um nó não significa a perda de todo o serviço. (Tolerância a falhas)
+	- Preço/Desempenho superior: ideia de blocos de construção. Pode-se montar um cluster com poder computacional maior que uma máquina de grande porte com custo menor.
+
+
+
+____
+
+-> CONFIGURAÇÕES DE CLUSTERS
+- Cluster podem compartilhar acesso ao mesmo disco. Ex.: Sistemas de arquivos distribuídos ou Storages
+- A interconexão é feita por uma ligação de alta velocidade (troca de mensagens e coordenação do cluster)
+- Podemos também ter clusters onde cada nó tem seu próprio disco
+
+
+- Método Secundário Passivo (passive standby)
+	- Um computador lida com toda a carga enquanto outro permanece inativo.
+	- Máquina pronta para assumir em caso de uma falha do primário
+	- Periodicamente, o sistema ativo envia uma mensagem à secundária
+	- Se as mensagens pararem de chegar, o secundário interpreta que o servidor primário falhou e começa a operar
+	- Isso aumenta a disponibilidade, porém não melhora o desempenho
+
+______________
+SO EM CLUSTERS
+
+(...) continuar slide 10 página 25
+
